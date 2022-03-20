@@ -1,10 +1,14 @@
 package Acme::CPANModules::Assert;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
-    summary => 'Assertion',
+    summary => 'List of modules to do assertion',
     description => <<'_',
 
 Assertion is a check statement that must evaluate to true or it will abort
